@@ -42,7 +42,7 @@ return (
             </div>
         </div>
     </div>
-    <div className='md:justify-start flex w-full gap-10 ml-32 relative z-20 -bottom-12'>
+    <div className='md:justify-start flex w-full gap-10 relative z-20 -bottom-12'>
         <picture className="">
             <img src="/img-objetivos.webp" className="" alt="" />
         </picture>
