@@ -12,7 +12,7 @@ import { OrientationsGeneral } from "./components/OrientationsGeneral";
 import { OurPartnersAndSponsors } from "./components/OurPartnersAndSponsors";
 import { Programming } from "./components/Programming";
 import { RulesAndRegulations } from "./components/RulesAndRegulations";
-import { ScrollTop } from "./components/ScrollToTopp";
+import { ScrollToTop } from "./components/ScrollToTop";
 
 export default function Home() {
   return (
@@ -29,7 +29,7 @@ export default function Home() {
 <OurPartnersAndSponsors/>
 <Contact/>
 <Footer/>
-<ScrollTop/>
+<ScrollToTop/>
 </main>
   );
 }
