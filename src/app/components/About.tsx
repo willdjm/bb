@@ -7,15 +7,15 @@ return (
 <div className=" flex flex-col justify-center items-center py-16">
     <div className='md:justify-center flex flex-col justify-items-center md:max-w-6xl w-full gap-12'>
         <div className="flex flex-col w-full items-start justify-start relative -top-36 gap-10">
-            <p id="About" className="text-blue-950 font-bold uppercase text-[39.69px]">SOBRE A OLIMPÍADA</p>
+            <p id="About" className="text-blue-950 font-bold uppercase text-4xl">SOBRE A OLIMPÍADA</p>
             <p className="text-blue-950 border-l-[7px] border-Green-900 pl-5 max-w-[51rem] text-xl pt-4">A OLIMPÍADA NACIONAL DE
                 NANOTECNOLOGIA (ONANO) é um evento inédito no Brasil, dedicado a promover o conhecimento, popularizar e
                 divulgar o fascinante campo da <span className="font-bold">nanociência e os avanços da nanotecnologia.</span></p>
             
             <div>
-                <p className="text-blue-950 text-[43.69px] font-bold">Será <span className="text-amber-400 uppercase font-bold">GRATUITA</span> e voltada para estudantes do</p>
-                <span className="font-bold text-[58px] w-full text-blue-950">ensino fundamental, médio e técnico</span>
-                <p className="text-[43.69px] font-bold text-blue-950"> de escolas públicas e privadas.</p>
+                <p className="text-blue-950 text-4xl font-bold">Será <span className="text-amber-400 uppercase font-bold">GRATUITA</span> e voltada para estudantes do</p>
+                <span className="font-bold text-5xl w-full text-blue-950">ensino fundamental, médio e técnico</span>
+                <p className="text-4xl font-bold text-blue-950"> de escolas públicas e privadas.</p>
             </div>
         </div>
         <div className="flex w-full items-start justify-start relative -top-36 gap-8">
