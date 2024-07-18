@@ -19,13 +19,13 @@ export default function Home() {
 <main>
 <Navbar/>
 <Banner/>
-<About/>
+ <About/>
 <ObjectivesAndBenefits/>
 <OrientationsGeneral/>
 <Programming/>
 <InformationsForEducators/>
 <RulesAndRegulations/>
-<Depositions/> 
+<Depositions/>  
 <OurPartnersAndSponsors/>
 <Contact/>
 <Footer/>

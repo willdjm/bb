@@ -32,7 +32,9 @@ export function Navbar() {
     };
 
     return (
-        <div className="bg-blue-950 py-5" id='Top'>
+<>
+{/* MOBILE */}
+<div className="bg-blue-950 hidden md:block" id='Top'>
             {/* Sidebar */}
             <div className={`fixed bg-blue-950 text-white w-full z-50 min-h-screen overflow-y-auto transition-transform
                 ${isSidebarOpen ? 'right-0' : 'right-full' } ease-in-out duration-300`} ref={sidebarRef}>
@@ -84,5 +86,6 @@ export function Navbar() {
                 </div>
             </div>
         </div>
+</>
     );
 };

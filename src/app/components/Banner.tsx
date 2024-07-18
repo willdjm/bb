@@ -1,10 +1,14 @@
 "use client"
 
+import { NavbarMobile } from "./NavbarMobile"
+
 export function Banner() {
 
 return (
 
-<div id="" className="relative flex flex-col justify-start items-center">
+<>
+<NavbarMobile/>
+<div id="" className="relative hidden md:flex flex-col justify-start items-center">
     <div className="relative flex items-center justify-center w-full">
         <picture className=" w-full relative">
             <img src="/banner.png" className="w-full h-auto relative" alt="" />
@@ -24,5 +28,17 @@ return (
         <p className="text-amber-400 font-bold uppercase text-2xl max-w-xs">OLIMPÍADA NACIONAL DE NANOTECNOLOGIA</p>
     </div> */}
 </div>
+
+{/* MOBILE */}
+<div id="" className="md:hidden relative z-30 flex flex-col justify-start items-center">
+    <div className="relative flex items-center justify-center w-full">
+        <picture className=" w-full relative">
+            <img src="/banner-mobile.png" className="w-full h-auto relative" alt="" />
+        </picture>
+
+    </div>
+
+</div>
+</>
 );
 }
