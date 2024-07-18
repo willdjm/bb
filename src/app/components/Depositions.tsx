@@ -117,55 +117,7 @@ return (
         <div className="absolute z-20 w-full flex flex-col items-center justify-center">
             <h3 className="flex items-center justify-center text-white font-bold uppercase text-2xl pb-10 pt-10">DEPOIMENTOS
             </h3>
-            <Carousel
-        className='w-full flex'
-        showStatus={false}
-        showThumbs={false}
-        infiniteLoop
-        showArrows={true}
-        showIndicators={false}
-        slidesToShow={1} // Mostra apenas 1 slide por vez
-        renderArrowPrev={(onClickHandler, hasPrev) =>
-            hasPrev && (
-                <button
-                    type="button"
-                    onClick={onClickHandler}
-                    className="absolute top-1/2 transform -translate-y-1/2 left-2 z-10 bg-transparent border-none cursor-pointer text-amber-400"
-                >
-                    <FaChevronLeft size={40} />
-                </button>
-            )
-        }
-        renderArrowNext={(onClickHandler, hasNext) =>
-            hasNext && (
-                <button
-                    type="button"
-                    onClick={onClickHandler}
-                    className="absolute top-1/2 transform -translate-y-1/2 right-2 z-10 bg-transparent border-none cursor-pointer text-amber-400"
-                >
-                    <FaChevronRight size={40} />
-                </button>
-            )
-        }
-    >
-        {/* Slide 1 */}
-        <div className="flex items-center justify-center">
-            <div className="flex flex-col items-end justify-center text-white border-l-[6px] border-amber-400 pl-5 max-w-72 w-full">
-                <p className="text-left text-base">“Participar de uma olimpíada científica mudou minha vida. Aprendi muito e fiz amizades incríveis. Mal posso esperar para competir na OLIMPÍADA NACIONAL DE NANOTECNOLOGIA!”</p>
-                <p className="text-right text-base pt-5">João Silva,</p>
-                <p className="text-right text-base">Finalista da Olimpíada de Física.</p>
-            </div>
-        </div>
 
-        {/* Slide 2 */}
-        <div className="flex items-center justify-center">
-            <div className="flex flex-col items-end justify-center text-white border-l-[6px] border-amber-400 pl-5 max-w-72 w-full">
-                <p className="text-left text-base">“Participar de uma olimpíada científica mudou minha vida. Aprendi muito e fiz amizades incríveis. Mal posso esperar para competir na OLIMPÍADA NACIONAL DE NANOTECNOLOGIA!”</p>
-                <p className="text-right text-base pt-5">Maria Oliveira,</p>
-                <p className="text-right text-base">Vencedora da Olimpíada de Química.</p>
-            </div>
-        </div>
-    </Carousel>
 
         </div>
     </div>
