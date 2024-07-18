@@ -65,7 +65,7 @@ export function NavbarMobile() {
     
 <button onClick={toggleSidebar}
                             className="text-white hover:text-white focus:outline-none focus:text-white p-4">
-                                          <BsThreeDotsVertical className="block h-10 w-10 text-white" aria-hidden="true" />
+                                          <BsThreeDotsVertical className="block h-8 w-8 text-white" aria-hidden="true" />
                             </button>
           
 </div>
