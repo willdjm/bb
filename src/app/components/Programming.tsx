@@ -78,7 +78,7 @@ return (
 
 {/* MOBILE */}
 <div className="md:hidden relative flex flex-col justify-center items-center">
-    <div id="Programming"
+    <div id="ProgrammingMobile"
         className='md:justify-center items-center flex flex-col w-full py-10 relative gap-20'>
         <p className="text-blue-950 font-bold text-3xl uppercase text-center">PROGRAMAÇÃO</p>
         <p className="text-blue-950 text-2xl text-center">Fique atento as datas importantes:</p>
@@ -110,7 +110,7 @@ return (
             <img src="/bg-programacao-mobile.png" className="" alt="" />
         </picture>
         <div className="absolute z-20 w-full flex flex-col items-center justify-center px-5 gap-8">
-            <p id="WhoCanParticipate" className="text-white font-bold text-3xl uppercase text-center pt-5">QUEM PODE PARTICIPAR</p>
+            <p id="WhoCanParticipateMobile" className="text-white font-bold text-3xl uppercase text-center pt-5">QUEM PODE PARTICIPAR</p>
             <div className="flex flex-col w-full items-center justify-center gap-2">
                 {/* Primeira coluna */}
                 <p className="text-white text-base text-center">A participação é </p>

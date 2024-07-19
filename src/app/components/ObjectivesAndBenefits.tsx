@@ -60,7 +60,7 @@ return (
 
 {/* MOBILE */}
 <div className="relative md:hidden flex flex-col justify-center items-center">
-    <div id="ObjectivesAndBenefits"
+    <div id="ObjectivesAndBenefitsMobile"
         className="flex items-center justify-center h-56 w-56 rounded-full bg-gray-100 relative -bottom-36 z-50">
         <h1 className="text-blue-950 font-bold uppercase text-2xl text-center">OBJETIVOS E BENEFÍCIOS</h1>
     </div>
@@ -91,10 +91,10 @@ return (
         </div>
     </div>
     <div className='justify-start flex flex-col w-full gap-10 relative z-20 pt-10 pb-20'>
-        <picture className="">
+        <picture id="HowItWorksMobile" className="">
             <img src="/img-objetivos.webp" className="" alt="" />
         </picture>
-        <div id="HowItWorks" className="flex items-center justify-center gap-5 px-5">
+        <div className="flex items-center justify-center gap-5 px-5">
             <div
                 className="flex flex-col gap-8 items-start justify-start text-blue-950">
                 <p className="text-left uppercase font-bold text-xl">COMO FUNCIONARÁ</p>

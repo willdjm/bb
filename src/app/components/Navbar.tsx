@@ -33,7 +33,6 @@ export function Navbar() {
 
     return (
 <>
-{/* MOBILE */}
 <div className="bg-blue-950 hidden md:block" id='Top'>
             {/* Sidebar */}
             <div className={`fixed bg-blue-950 text-white w-full z-50 min-h-screen overflow-y-auto transition-transform

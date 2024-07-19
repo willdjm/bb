@@ -51,7 +51,7 @@ return (
 </div>
 
 {/* MOBILE */}
-<div id="OrientationsGeneral" className="md:hidden relative flex flex-col justify-start items-start">
+<div className="md:hidden relative flex flex-col justify-start items-start">
         <picture className=" w-full relative">
             <img src="/bg-orientacoes-mobile.png" className="w-full object-cover h-full relative" alt="" />
         </picture>

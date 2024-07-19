@@ -43,7 +43,7 @@ return (
 <div className="md:hidden flex flex-col justify-center items-center ">
     <div className='justify-center flex flex-col justify-items-center w-full gap-10'>
         <div className="flex flex-col w-full items-center justify-center relative gap-10 px-4 pt-10">
-            <p id="About" className="text-blue-950 font-bold uppercase text-3xl text-center max-w-xs">SOBRE A OLIMPÍADA</p>
+            <p id="AboutMobile" className="text-blue-950 font-bold uppercase text-3xl text-center max-w-xs">SOBRE A OLIMPÍADA</p>
             <p className="text-blue-950 border-l-[7px] border-Green-900 pl-5 text-xl ">A OLIMPÍADA NACIONAL DE
                 NANOTECNOLOGIA (ONANO) é um evento inédito no Brasil, dedicado a promover o conhecimento, popularizar e
                 divulgar o fascinante campo da <span className="font-bold">nanociência e os avanços da nanotecnologia.</span></p>
