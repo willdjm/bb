@@ -77,9 +77,9 @@ return (
 
 
 {/* MOBILE */}
-<div className="md:hidden relative flex flex-col justify-start items-center">
+<div className="md:hidden relative flex flex-col justify-start items-center h-screen">
     <div id="Programming"
-        className='md:justify-center items-center flex flex-col w-full py-10 relative gap-10 '>
+        className='md:justify-center items-center flex flex-col w-full py-10 relative gap-20'>
         <p className="text-blue-950 font-bold text-3xl uppercase text-center">PROGRAMAÇÃO</p>
         <p className="text-blue-950 text-2xl text-center">Fique atento as datas importantes:</p>
         <div className="flex flex-col items-center justify-center gap-10 text-center">
