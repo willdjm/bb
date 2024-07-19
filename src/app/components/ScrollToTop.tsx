@@ -31,10 +31,8 @@ export function ScrollToTop() {
     <>
       {isVisible && (
         <div className="fixed right-5 bottom-3 md:group z-50">
-          <Link href="/">
-            <a className="flex items-center justify-center text-blue-600 bg-slate-100 rounded-lg w-14 h-14 hover:bg-slate-200 cursor-pointer">
+          <Link href="/" className="flex items-center justify-center text-blue-600 bg-slate-100 rounded-lg w-14 h-14 hover:bg-slate-200 cursor-pointer">
               <GoMoveToTop size={30} />
-            </a>
           </Link>
         </div>
       )}

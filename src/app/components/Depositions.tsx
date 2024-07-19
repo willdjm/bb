@@ -9,7 +9,6 @@ export function Depositions() {
 
 return (
 
-<>
 <div id="Depositions" className=" relative hidden md:flex flex-col justify-center items-center -top-[54rem]">
     <div className="relative flex items-center justify-center w-full">
         <div className="absolute z-20 w-full flex items-start justify-end -top-24 mr-4">
@@ -103,49 +102,6 @@ return (
     </div>
 </div>
 
-{/* MOBILE */}
-<div id="Depositions" className=" relative md:hidden flex flex-col justify-center items-center h-screen">
-    <div className="relative flex items-center justify-center w-full">
-        <div className="absolute z-20 w-full flex items-start justify-center ">
-            <picture className="w-full h-full">
-                <img src="/bg-depoimentos-mobile.png" className="w-full h-full" alt="" />
-            </picture>
-        </div>
-        <picture className="">
-            <img src="/bg-depoimentos.webp" className="w-full h-auto relative" alt="" />
-        </picture>
-        <div className="absolute z-20 w-full flex flex-col items-center justify-center">
-            <h3 className="flex items-center justify-center text-white font-bold uppercase text-2xl pb-10 pt-10">DEPOIMENTOS
-            </h3>
-
-
-        </div>
-    </div>
-
-</div>
-<div  className=" relative md:hidden flex flex-col justify-center items-center px-5 pt-10">
-
-    <div className="flex flex-col items-center justify-center gap-5">
-        <div className="text-center">
-            <p className="text-blue-950 font-bold text-base uppercase">FAQ</p>
-            <p className="text-blue-950 text-base">(Perguntas Frequentes)</p>
-        </div>
-        <div className="w-full flex flex-col items-center justify-center gap-5">
-            <div className="">
-                <p className="text-blue-950 font-bold text-base text-center">Como faço para me inscrever?</p>
-                <p className="text-blue-950 text-base text-center">Acesse o formulário de inscrição online e preencha todos os campos obrigatórios.</p>
-            </div>
-            <div className="mb-4">
-                <p className="text-blue-950 font-bold text-base text-center">Há algum custo para participar?</p>
-                <p className="text-blue-950 text-base text-center">A inscrição na OLIMPÍADA NACIONAL DE NANOTECNOLOGIA é <span className='underline'>gratuita.</span></p>
-            </div>
-            <button className="w-full">
-                <a href="#" target="_blank" className="text-blue-950 text-base flex items-center justify-center gap-2">Ver mais <SlArrowDown /></a>
-            </button>
-        </div>
-    </div>
-</div>
-</>
 );
 }
 
